@@ -29,10 +29,10 @@ sleep(5)
 
 username = driver.find_element_by_xpath('//input[@name="session[username_or_email]"]')
 # insert your username in ""
-username.send_keys("AlexJohae")
+username.send_keys("")
 password = driver.find_element_by_xpath('//input[@name="session[password]"]')
 # insert your password in ""
-password.send_keys("80982000svzWER")
+password.send_keys("")
 
 # Close Cookies
 driver.find_element_by_xpath(
